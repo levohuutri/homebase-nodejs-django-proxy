@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  express:
+    build:
+      context: ./apps/express
+      dockerfile: Dockerfile
+    environment:
+      - EXPRESS_PORT=3000
+    volumes:
+      - ./apps/express/app:/data/app
+    entrypoint: ["/sh/entrypoint.sh"]
+    ports:
+      - 3000:3000
+  django:
+    build:
+      context: ./apps/django
+      dockerfile: Dockerfile
+    environment:
+      - DJANGO_PORT=8000
+      - EXPRESS_BASEURL=http://express:3000
+    depends_on:
+      - express
+    volumes:
+      - ./apps/django/app:/data/app
+    entrypoint: ["/sh/entrypoint.sh"]
+    #command: tail -f
+    ports:
+      - 8000:8000
