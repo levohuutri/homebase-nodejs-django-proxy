@@ -7,7 +7,8 @@ HomeBase NodeJS Django intergrated via Python proxy
     - [x] Init Express skeleton
     - [x] Init Django Skeleton
 - [ ] NodeJs ExpressJS App
-    - [ ] Init app expressjs
+    - [x] Init app expressjs
+    - [x] Init database 
     - [ ] Create a simple REST API using Express, Implement CRUD operations for a "User" resource.
         - [ ] Create user module with: route, controller, service, database/model
             - [ ] Implement user/route with Restful API for CRUD
