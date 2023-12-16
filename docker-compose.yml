@@ -24,6 +24,5 @@ services:
     volumes:
       - ./apps/django/app:/data/app
     entrypoint: ["/sh/entrypoint.sh"]
-    #command: tail -f
     ports:
       - 8000:8000

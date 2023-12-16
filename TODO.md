@@ -6,7 +6,7 @@ HomeBase NodeJS Django intergrated via Python proxy
     - [x] Init docker skeleton
     - [x] Init Express skeleton
     - [x] Init Django Skeleton
-- [ ] NodeJs ExpressJS App
+- [x] NodeJs ExpressJS App
     - [x] Init app expressjs
     - [x] Init database 
     - [x] Create a simple REST API using Express, Implement CRUD operations for a "User" resource.
@@ -17,15 +17,15 @@ HomeBase NodeJS Django intergrated via Python proxy
             - [x] Implement user/database create User table
             - [x] Implement user/tests
             - [x] Plug user module to app
-- [ ] Django App
-    - [ ] Init project Django
-    - [ ] Create /app and /proxy
-    - [ ] In /app module
-        - [ ] Create product model
-        - [ ] Add project model to admin interface
-    - [ ] In /proxy module
-        - [ ] Create helpers to forward request by proxy
-        - [ ] Create proxy_view
-        - [ ] Test proxy
-- [ ] Postman for end-to-end
-- [ ] Complete README.md
+- [x] Django App
+    - [x] Init project Django
+    - [x] Create /app and /proxy
+    - [x] In /app module
+        - [x] Create product model
+        - [x] Add project model to admin interface
+    - [x] In /proxy module
+        - [x] Create helpers to forward request by proxy
+        - [x] Create proxy_view
+        - [x] Test proxy
+- [x] Postman for end-to-end
+- [x] Complete README.md

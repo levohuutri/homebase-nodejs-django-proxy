@@ -1,0 +1,8 @@
+## init database
+npx sequelize-cli init --config=/data/app/config/db.config.js
+
+##############################
+# database init for module user
+npx sequelize-cli init --config=/data/app/src/config/db.config.json_tmp
+# user model
+npx sequelize-cli model:generate --name User --attributes name:string,email:string

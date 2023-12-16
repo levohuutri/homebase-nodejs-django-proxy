@@ -36,7 +36,7 @@ class UserController {
     const { name, email } = req.body;
 
     try {
-      yup().object().shape({
+      yup.object().shape({
         name: yup.string().required(),
         email: yup.string().email().required()
       }).validateSync({ name, email });
