@@ -36,7 +36,7 @@ To run this project, you will need Docker and Docker Compose installed on your m
 2. Navigate to the project's root directory.
 
 #### Docker compose
-3.1 Build and start the Docker containers using Docker Compose:
+3. Build and start the Docker containers using Docker Compose:
 
    ```bash
    docker-compose up
@@ -46,14 +46,15 @@ To run this project, you will need Docker and Docker Compose installed on your m
    make up
    ```
 #### None Docker
-3.1 Start Node.js - require Node version >=18, navigate to root project
-3.1.1 Run command `cd apps/express/app && npm install && npm start`
-3.1.2 Server start at: [http://localhost:3000](http://localhost:3000)
-
-3.2 Start Django - require Python 3x, navigate to root project
-3.2.1 Update `.env`, navigate to `apps/django/app/.evn` update `EXPRESS_BASEURL=http://localhost:3000`
-3.2.2 Navigate to `cd apps/django`
-3.2.3 Run command `./install_start.sh` to install depends and start project at [http://localhost:8000](http://localhost:8000/admin)
+##### Start NodeJs
+- Start Node.js - require Node version >=18, navigate to root project
+- Run command `cd apps/express/app && npm install && npm start`
+- Server start at: [http://localhost:3000](http://localhost:3000)
+##### Start Django
+- Start Django - require Python 3x, navigate to root project
+- Update `.env`, navigate to `apps/django/app/.evn` update `EXPRESS_BASEURL=http://localhost:3000`
+- Navigate to `cd apps/django`
+- Run command `./install_start.sh` to install depends and start project at [http://localhost:8000](http://localhost:8000/admin)
 
 ## API Testing with Postman
 
