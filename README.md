@@ -26,6 +26,9 @@ The project consists of two subsystems, `Node.js` and `Django`, connected to eac
   
 - **Proxy Module Helpers**: the main logic and helper scripts to handle the proxy functionality.
 
+### Python Script handle proxy
+[apps/django/app/proxy/helpers.py](apps/django/app/proxy/helpers.py)
+
 ## Getting Started
 
 To run this project, you will need Docker and Docker Compose installed on your machine.
