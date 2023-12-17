@@ -18,7 +18,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - DJANGO_PORT=8000
-      - EXPRESS_BASEURL=http://express:3000
+      - EXPRESS_BASEURL=${EXPRESS_BASEURL:-http://express:3000}
     depends_on:
       - express
     volumes:
