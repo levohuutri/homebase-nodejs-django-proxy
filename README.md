@@ -35,8 +35,10 @@ To run this project, you will need Docker and Docker Compose installed on your m
 
 2. Navigate to the project's root directory.
 
+3. Build and start
+
 #### Docker compose
-3. Build and start the Docker containers using Docker Compose:
+- Build and start the Docker containers using Docker Compose:
 
    ```bash
    docker-compose up
